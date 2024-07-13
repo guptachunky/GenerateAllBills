@@ -14,7 +14,7 @@ import java.io.FileOutputStream;
 import java.lang.reflect.Constructor;
 import java.util.List;
 
-import static com.bill.BillGenerator.FuelConstants.BASE_PATH;
+import static com.bill.BillGenerator.fuel.FuelConstants.BASE_PATH;
 
 public class PDFGenerator {
 

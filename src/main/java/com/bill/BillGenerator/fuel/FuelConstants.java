@@ -1,4 +1,4 @@
-package com.bill.BillGenerator;
+package com.bill.BillGenerator.fuel;
 
 import java.text.SimpleDateFormat;
 import java.util.Random;
@@ -14,6 +14,7 @@ public interface FuelConstants {
     String HEADER1 = "CHANAKYAPURI SERVICE STATION";
     String HEADER2 = "ROAD NO 26, Outer Ring R";
     String HEADER3 = "Delhi";
+
     SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("dd/MM/yyyy");
     String TEMPLATE_NAME = BASE_PATH + "/data/Sample.pdf";
     String SAMPLE_JSON = BASE_PATH + "/data/Sample.json";

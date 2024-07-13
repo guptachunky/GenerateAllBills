@@ -1,18 +1,14 @@
 package com.bill.BillGenerator.fuel;
 
 import com.bill.BillGenerator.pojo.PDFFIllData;
-import lombok.RequiredArgsConstructor;
-import org.springframework.stereotype.Service;
 
 import java.util.Calendar;
 import java.util.List;
 import java.util.Locale;
 import java.util.Objects;
 
-import static com.bill.BillGenerator.FuelConstants.*;
+import static com.bill.BillGenerator.fuel.FuelConstants.*;
 
-@Service
-@RequiredArgsConstructor
 public class FuelBillApp {
 
     public static void main(String[] args) {
