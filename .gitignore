@@ -32,7 +32,7 @@ out/
 /dist/
 /nbdist/
 /.nb-gradle/
-/src/main/resources/fuel/output/*
-/src/main/resources/book/output/*
+#/src/main/resources/fuel/output/*
+#/src/main/resources/book/output/*
 ### VS Code ###
 .vscode/

@@ -43,7 +43,7 @@
     "font": "VictorMono-Bold.ttf"
   },
   {
-    "enricher": "TimeNow",
+    "text": "TimeNow",
     "locationX": 125,
     "locationY": 207,
     "fontSize": 11,
