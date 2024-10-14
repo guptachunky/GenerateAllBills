@@ -20,7 +20,7 @@ public class FuelBillApp {
         populateBaseInformation(data);
         PDFGenerator generator = new PDFGenerator();
         // It will generate 10 bills of same amount mentioned in the constant file change logic as per use
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 12; i++) {
             data.get(4).setText(DATE_FORMAT.format(cal.getTime()));
             String monthName = cal.getDisplayName(Calendar.MONTH, Calendar.SHORT, Locale.getDefault());
             String outputPdfFile = outputFileName(cal, monthName, data);
@@ -32,7 +32,7 @@ public class FuelBillApp {
 
     private static Calendar getStartOfCalender() {
         Calendar cal = Calendar.getInstance();
-        cal.set(2024, Calendar.APRIL, 6);
+        cal.set(2024, Calendar.JULY, 7);
         return cal;
     }
 
