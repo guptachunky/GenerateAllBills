@@ -43,7 +43,7 @@
     "font": "VictorMono-Bold.ttf"
   },
   {
-    "enricher": "TimeNow",
+    "text": "TimeNow",
     "locationX": 125,
     "locationY": 207,
     "fontSize": 11,
@@ -67,7 +67,7 @@
     "font": "VictorMono-Bold.ttf"
   },
   {
-    "text": "11",
+    "text": "",
     "locationX": 125,
     "locationY": 165,
     "fontSize": 11,
@@ -75,7 +75,7 @@
     "font": "VictorMono-Bold.ttf"
   },
   {
-    "text": "77",
+    "text": "",
     "locationX": 125,
     "locationY": 151,
     "fontSize": 11,
